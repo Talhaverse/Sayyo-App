@@ -12,7 +12,10 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="landingPage" component={landingPage} />
+        <Stack.Screen name="landingPage" component={landingPage} options={{  title: '',
+          headerStyle: {
+            backgroundColor: '#A8DADC',
+          }, }} />
         <Stack.Screen name="onboarding1" component={onboarding1} />
       </Stack.Navigator>
     </NavigationContainer>
