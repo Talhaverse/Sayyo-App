@@ -7,19 +7,19 @@ export default function HomeScreen({ navigation }) {
         <View style={{marginTop:0,paddingRight:35}}>
 
         
-      <Text style={styles.headText}>Tell us what you're looking for </Text>
-      <Text style={[styles.secondaryText,{}]}>We'll take care of the rest for you</Text>
+      <Text style={styles.headText}>Say yo or no simply by swiping</Text>
+      <Text style={[styles.secondaryText,{}]}>We'll be learning your preference</Text>
         
 
 {/* main view for button alignment */}
     <View style={styles.buttonView}>
 {/* button section that is replicating  */}
-     <TouchableOpacity  style={[styles.button , {backgroundColor:'#00B4D8',marginBottom:5,width:168}]}  >
+     <TouchableOpacity  style={[styles.button , {backgroundColor:'#00B4D8',marginBottom:5,width:148}]}  >
 
         <View style={{flexDirection:'row'}}>
 
         <Image source = {require('../assets/arrow.png')} style={{width:20, height:20,marginTop:6}} />
-         <Text style={styles.buttonText}>Remote & Karachi</Text>
+         <Text style={styles.buttonText}>Infinity Games</Text>
 
         </View>
      
@@ -29,12 +29,12 @@ export default function HomeScreen({ navigation }) {
     {/* this view is for creating a gap */}
     <View style={{marginHorizontal:3}} />
 
-      <TouchableOpacity style={[styles.button,{marginBottom:5,width:183}]}>
+      <TouchableOpacity style={[styles.button,{marginBottom:5,width:169}]}>
 
       <View style={{flexDirection:'row'}}>
 
         <Image source = {require('../assets/arrow.png')} style={{width:20, height:20,marginTop:6}} />
-        <Text style={styles.buttonText}>$55k - $100k salary</Text>
+        <Text style={styles.buttonText}>Unity Developer</Text>
 
      </View>
 
@@ -42,20 +42,20 @@ export default function HomeScreen({ navigation }) {
 
 
 
-      <TouchableOpacity  style={[styles.button , {backgroundColor:'#00B4D8',marginBottom:55,width:151}]}  >
+      <TouchableOpacity  style={[styles.button , {backgroundColor:'#00B4D8',marginBottom:55,width:98.18}]}  >
 
     <View style={{flexDirection:'row'}}>
 
         <Image source = {require('../assets/arrow.png')} style={{width:20, height:20,marginTop:6}} />
-        <Text style={styles.buttonText}>Blockchain & AI</Text>
+        <Text style={styles.buttonText}>Remote</Text>
 
     </View>
 
       </TouchableOpacity>
 
 
-<TouchableOpacity onPress={() => navigation.navigate("onboarding2")} >
-    <Image source = {require('../assets/arrow.png')}  />
+<TouchableOpacity>
+    <Image source = {require('../assets/arrow.png')} />
 </TouchableOpacity>
 
 </View>
@@ -63,8 +63,8 @@ export default function HomeScreen({ navigation }) {
 
 </View>
 
-<TouchableOpacity style={[styles.button,{width:64,marginLeft:250,marginBottom:10}]}>
-        <Text style={styles.buttonText}>Skip</Text>
+<TouchableOpacity style={[styles.button,{width:140,marginLeft:200,marginBottom:10}]} onPress={() => navigation.navigate("signup")} >
+        <Text style={styles.buttonText}>Create Account</Text>
  </TouchableOpacity>
 
 
