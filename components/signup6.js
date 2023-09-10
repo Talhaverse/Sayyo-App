@@ -5,7 +5,7 @@ export default function HomeScreen({ navigation }) {
   return (
     <SafeAreaView style={styles.container}>
         <View >
-     <Text style={styles.headText}>What are you most excited about?</Text>
+     <Text style={styles.headText}>What type of roles are you looking for?</Text>
      <Text style={styles.secondaryText}>Select at least 3</Text>
      </View>
      <View style={{alignItems: 'center',paddingHorizontal:40,alignItems: 'flex-start'}}>
@@ -63,7 +63,7 @@ export default function HomeScreen({ navigation }) {
      
      </View>
 
-<TouchableOpacity style={[styles.buttonMain,{width:70,marginLeft:280,marginTop:10}]} onPress={() => navigation.navigate("signup2")} >
+<TouchableOpacity style={[styles.buttonMain,{width:70,marginLeft:280,marginTop:10}]} onPress={() => navigation.navigate("signup7")} >
         <Text style={styles.buttonText}>Next</Text>
  </TouchableOpacity>
 
