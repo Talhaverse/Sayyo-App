@@ -11,15 +11,15 @@ export default function HomeScreen({ navigation }) {
      <View style={{paddingHorizontal:40}}>
      {/* duplicatable view for same buttons */}
      <View style={{flexDirection: 'row' , paddingHorizontal:0}}>
-        <TouchableOpacity style={[styles.button,{width: 86,}]}>
+        <TouchableOpacity style={[styles.button,{width: 'auto',}]}>
             <Text style={styles.buttonText}>German</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:4,marginVertical:20}} />
-        <TouchableOpacity style={[styles.button,{width: 76,}]}>
+        <TouchableOpacity style={[styles.button,{width: 'auto',}]}>
             <Text style={styles.buttonText}>Italian</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:4,marginVertical:25}} />
-        <TouchableOpacity style={[styles.button,{width:75}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Arabic</Text>
         </TouchableOpacity>
        
@@ -30,16 +30,16 @@ export default function HomeScreen({ navigation }) {
             <Text style={styles.buttonText}>Islamabad</Text>
         </TouchableOpacity> */}
         {/* <View style={{marginHorizontal:4,marginVertical:25}} /> */}
-        <TouchableOpacity style={[styles.button,{width:86}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>French</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:4,marginVertical:25}} />
 
-        <TouchableOpacity style={[styles.button,{width:75}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Dutch</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:4,marginVertical:25}} />
-        <TouchableOpacity style={[styles.button,{width:72}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Urdu</Text>
         </TouchableOpacity>
        
@@ -55,11 +55,11 @@ export default function HomeScreen({ navigation }) {
         </TouchableOpacity>
      </View> */}
      <View style={{flexDirection: 'row' ,marginRight:0}}>
-        <TouchableOpacity style={[styles.button,{width:86}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>English</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:6,marginVertical:25}} />
-        <TouchableOpacity style={[styles.button,{width:72}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Hindi</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:6,marginVertical:25}} />
@@ -72,7 +72,7 @@ export default function HomeScreen({ navigation }) {
      
      </View>
 
-<TouchableOpacity style={[styles.buttonMain,{width:70,marginLeft:280,marginTop:10}]} onPress={() => navigation.navigate("signup5")} >
+<TouchableOpacity style={[styles.buttonMain,{width:76,marginLeft:280,marginTop:10}]} onPress={() => navigation.navigate("signup5")} >
         <Text style={styles.buttonText}>Next</Text>
  </TouchableOpacity>
 

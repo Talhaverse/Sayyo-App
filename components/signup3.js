@@ -11,7 +11,7 @@ export default function HomeScreen({ navigation }) {
      <View style={{paddingHorizontal:40}}>
      {/* duplicatable view for same buttons */}
      <View style={{flexDirection: 'row' , paddingHorizontal:0}}>
-        <TouchableOpacity style={[styles.button,{width: 216,}]}>
+        <TouchableOpacity style={[styles.button,{width: 'auto',}]}>
             <Text style={styles.buttonText}>I require a visa for the USA</Text>
         </TouchableOpacity>
        
@@ -25,7 +25,7 @@ export default function HomeScreen({ navigation }) {
             <Text style={styles.buttonText}>Islamabad</Text>
         </TouchableOpacity> */}
         {/* <View style={{marginHorizontal:4,marginVertical:25}} /> */}
-        <TouchableOpacity style={[styles.button,{width:216}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>I require the visa for the EU</Text>
         </TouchableOpacity>
 
@@ -45,7 +45,7 @@ export default function HomeScreen({ navigation }) {
         </TouchableOpacity>
      </View> */}
      <View style={{flexDirection: 'row' ,marginRight:0}}>
-        <TouchableOpacity style={[styles.button,{width:216}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>I don't require a visa</Text>
         </TouchableOpacity>
         

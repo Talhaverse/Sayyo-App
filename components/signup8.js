@@ -11,16 +11,16 @@ export default function HomeScreen({ navigation }) {
      <View style={{paddingHorizontal:40}}>
      {/* duplicatable view for same buttons */}
      <View style={{flexDirection: 'row' , paddingHorizontal:0}}>
-        <TouchableOpacity style={[styles.button,{width: 86,}]}>
-            <Text style={styles.buttonText}>Karachi</Text>
+        <TouchableOpacity style={[styles.button,{width: 'auto',}]}>
+            <Text style={styles.buttonText}>B2B</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:4,marginVertical:20}} />
-        <TouchableOpacity style={[styles.button,{width: 110,}]}>
-            <Text style={styles.buttonText}>Amsterdam</Text>
+        <TouchableOpacity style={[styles.button,{width: 'auto',}]}>
+            <Text style={styles.buttonText}>B2C</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:4,marginVertical:25}} />
-        <TouchableOpacity style={[styles.button,{width:75}]}>
-            <Text style={styles.buttonText}>Tokyo</Text>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
+            <Text style={styles.buttonText}>Retail</Text>
         </TouchableOpacity>
        
      </View>
@@ -30,17 +30,17 @@ export default function HomeScreen({ navigation }) {
             <Text style={styles.buttonText}>Islamabad</Text>
         </TouchableOpacity> */}
         {/* <View style={{marginHorizontal:4,marginVertical:25}} /> */}
-        <TouchableOpacity style={[styles.button,{width:86}]}>
-            <Text style={styles.buttonText}>London</Text>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
+            <Text style={styles.buttonText}>AI</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:4,marginVertical:25}} />
 
-        <TouchableOpacity style={[styles.button,{width:75}]}>
-            <Text style={styles.buttonText}>Berlin</Text>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
+            <Text style={styles.buttonText}>Blockchain</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:4,marginVertical:25}} />
-        <TouchableOpacity style={[styles.button,{width:108}]}>
-            <Text style={styles.buttonText}>Islamabad</Text>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
+            <Text style={styles.buttonText}>SaaS</Text>
         </TouchableOpacity>
        
      </View>
@@ -55,18 +55,15 @@ export default function HomeScreen({ navigation }) {
         </TouchableOpacity>
      </View> */}
      <View style={{flexDirection: 'row' ,marginRight:0}}>
-        <TouchableOpacity style={[styles.button,{width:86}]}>
-            <Text style={styles.buttonText}>Boston</Text>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
+            <Text style={styles.buttonText}>eCommerce</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:6,marginVertical:25}} />
-        <TouchableOpacity style={[styles.button,{width:100}]}>
-            <Text style={styles.buttonText}>Singapore</Text>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
+            <Text style={styles.buttonText}>Fintech</Text>
         </TouchableOpacity>
-        <View style={{marginHorizontal:6,marginVertical:25}} />
 
-        <TouchableOpacity style={[styles.button,{width:75}]}>
-            <Text style={styles.buttonText}>Paris</Text>
-        </TouchableOpacity>
+       
      </View>
 
      <View style={{flexDirection: 'row' ,marginRight:0}}>
@@ -74,27 +71,35 @@ export default function HomeScreen({ navigation }) {
             <Text style={styles.buttonText}>Paris</Text>
         </TouchableOpacity> */}
         {/* <View style={{marginHorizontal:6,marginVertical:25}} /> */}
-        <TouchableOpacity style={[styles.button,{width:96}]}>
-            <Text style={styles.buttonText}>New York</Text>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
+            <Text style={styles.buttonText}>Web3</Text>
+        </TouchableOpacity>
+
+        <View style={{marginHorizontal:6,marginVertical:25}} />
+
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
+            <Text style={styles.buttonText}>Marketplace</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:6,marginVertical:25}} />
 
-        <TouchableOpacity style={[styles.button,{width:75}]}>
-            <Text style={styles.buttonText}>Dubai</Text>
-        </TouchableOpacity>
-        <View style={{marginHorizontal:6,marginVertical:25}} />
 
-        <TouchableOpacity style={[styles.button,{width:90}]}>
-            <Text style={styles.buttonText}>Remote</Text>
-        </TouchableOpacity>
      </View>
 
      
      </View>
 
-<TouchableOpacity style={[styles.buttonMain,{width:70,marginLeft:280,marginTop:10}]} onPress={() => navigation.navigate("signup3")} >
+<View style={{flexDirection:'row',padding:40}}>
+
+
+     <TouchableOpacity style={[styles.buttonMain,{width:'auto',marginTop:0}]} onPress={() => navigation.navigate("")} >
+        <Text style={styles.buttonText}>Skip</Text>
+ </TouchableOpacity>
+
+<TouchableOpacity style={[styles.buttonMain,{width:'auto',marginLeft:190,marginTop:0}]} onPress={() => navigation.navigate("signup3")} >
         <Text style={styles.buttonText}>Next</Text>
  </TouchableOpacity>
+
+</View>
 
     </SafeAreaView>
 

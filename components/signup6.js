@@ -11,59 +11,51 @@ export default function HomeScreen({ navigation }) {
      <View style={{alignItems: 'center',paddingHorizontal:40,alignItems: 'flex-start'}}>
      {/* duplicatable view for same buttons */}
      <View style={{flexDirection: 'row' , marginRight:0}}>
-        <TouchableOpacity style={[styles.button,{width: 146,}]}>
-            <Text style={styles.buttonText}>Meaningful Work</Text>
+        <TouchableOpacity style={[styles.button,{width: 'auto',}]}>
+            <Text style={styles.buttonText}>Marketing</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:6,marginVertical:25}} />
-        <TouchableOpacity style={[styles.button,{width: 119,}]}>
-            <Text style={styles.buttonText}>Women Lead</Text>
+        <TouchableOpacity style={[styles.button,{width: 'auto',}]}>
+            <Text style={styles.buttonText}>People & HR</Text>
         </TouchableOpacity>
      </View>
 
      <View style={{flexDirection: 'row' ,  marginRight:0}}>
-        <TouchableOpacity style={[styles.button,{width:136}]}>
-            <Text style={styles.buttonText}>Product Centric</Text>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
+            <Text style={styles.buttonText}>Software Engineering</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:6,marginVertical:25}} />
-        <TouchableOpacity style={[styles.button,{width:120}]}>
-            <Text style={styles.buttonText}>Data Driven</Text>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
+            <Text style={styles.buttonText}>Data</Text>
         </TouchableOpacity>
      </View>
 
      <View style={{flexDirection: 'row' ,  marginRight:0}}>
-     <TouchableOpacity style={[styles.button,{width:175}]}>
-            <Text style={styles.buttonText}>Recognition & reward</Text>
+     <TouchableOpacity style={[styles.button,{width:'auto'}]}>
+            <Text style={styles.buttonText}>Operations & Strategy</Text>
         </TouchableOpacity>
        
         <View style={{marginHorizontal:6,marginVertical:25}} />
-        <TouchableOpacity style={[styles.button,{width:88}]}>
-            <Text style={styles.buttonText}>Flexible</Text>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
+            <Text style={styles.buttonText}>Design</Text>
         </TouchableOpacity>
      </View>
 
      <View style={{flexDirection: 'row' , marginRight:0}}>
-        <TouchableOpacity style={[styles.button,{width:130}]}>
-            <Text style={styles.buttonText}>Tech and tools</Text>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
+            <Text style={styles.buttonText}>Sales & Account</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:6,marginVertical:25}} />
-        <TouchableOpacity style={[styles.button,{width:110}]}>
-            <Text style={styles.buttonText}>Progression</Text>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
+            <Text style={styles.buttonText}>Product</Text>
         </TouchableOpacity>
      </View>
 
-     <View style={{flexDirection: 'row' , marginRight:0}}>
-     <TouchableOpacity style={[styles.button,{width:170}]}>
-            <Text style={styles.buttonText}>Diversity & wellbeing</Text>
-        </TouchableOpacity>
-        <View style={{marginHorizontal:6}} />
-        <TouchableOpacity style={[styles.button,{width:60}]}>
-            <Text style={styles.buttonText}>fun</Text>
-        </TouchableOpacity>
-     </View>
+     
      
      </View>
 
-<TouchableOpacity style={[styles.buttonMain,{width:70,marginLeft:280,marginTop:10}]} onPress={() => navigation.navigate("signup7")} >
+<TouchableOpacity style={[styles.buttonMain,{width:76,marginLeft:280,marginTop:10}]} onPress={() => navigation.navigate("signup7")} >
         <Text style={styles.buttonText}>Next</Text>
  </TouchableOpacity>
 

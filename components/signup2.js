@@ -11,15 +11,15 @@ export default function HomeScreen({ navigation }) {
      <View style={{paddingHorizontal:40}}>
      {/* duplicatable view for same buttons */}
      <View style={{flexDirection: 'row' , paddingHorizontal:0}}>
-        <TouchableOpacity style={[styles.button,{width: 86,}]}>
+        <TouchableOpacity style={[styles.button,{width: 'auto',}]}>
             <Text style={styles.buttonText}>Karachi</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:4,marginVertical:20}} />
-        <TouchableOpacity style={[styles.button,{width: 110,}]}>
+        <TouchableOpacity style={[styles.button,{width: 'auto',}]}>
             <Text style={styles.buttonText}>Amsterdam</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:4,marginVertical:25}} />
-        <TouchableOpacity style={[styles.button,{width:75}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Tokyo</Text>
         </TouchableOpacity>
        
@@ -30,16 +30,16 @@ export default function HomeScreen({ navigation }) {
             <Text style={styles.buttonText}>Islamabad</Text>
         </TouchableOpacity> */}
         {/* <View style={{marginHorizontal:4,marginVertical:25}} /> */}
-        <TouchableOpacity style={[styles.button,{width:86}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>London</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:4,marginVertical:25}} />
 
-        <TouchableOpacity style={[styles.button,{width:75}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Berlin</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:4,marginVertical:25}} />
-        <TouchableOpacity style={[styles.button,{width:108}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Islamabad</Text>
         </TouchableOpacity>
        
@@ -55,16 +55,16 @@ export default function HomeScreen({ navigation }) {
         </TouchableOpacity>
      </View> */}
      <View style={{flexDirection: 'row' ,marginRight:0}}>
-        <TouchableOpacity style={[styles.button,{width:86}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Boston</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:6,marginVertical:25}} />
-        <TouchableOpacity style={[styles.button,{width:100}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Singapore</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:6,marginVertical:25}} />
 
-        <TouchableOpacity style={[styles.button,{width:75}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Paris</Text>
         </TouchableOpacity>
      </View>
@@ -74,17 +74,17 @@ export default function HomeScreen({ navigation }) {
             <Text style={styles.buttonText}>Paris</Text>
         </TouchableOpacity> */}
         {/* <View style={{marginHorizontal:6,marginVertical:25}} /> */}
-        <TouchableOpacity style={[styles.button,{width:96}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>New York</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:6,marginVertical:25}} />
 
-        <TouchableOpacity style={[styles.button,{width:75}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Dubai</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:6,marginVertical:25}} />
 
-        <TouchableOpacity style={[styles.button,{width:90}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Remote</Text>
         </TouchableOpacity>
      </View>

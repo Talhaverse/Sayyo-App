@@ -11,52 +11,52 @@ export default function HomeScreen({ navigation }) {
      <View style={{alignItems: 'center',paddingHorizontal:40,alignItems: 'flex-start'}}>
      {/* duplicatable view for same buttons */}
      <View style={{flexDirection: 'row' , marginRight:0}}>
-        <TouchableOpacity style={[styles.button,{width: 146,}]}>
+        <TouchableOpacity style={[styles.button,{width: 'auto',}]}>
             <Text style={styles.buttonText}>Meaningful Work</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:6,marginVertical:25}} />
-        <TouchableOpacity style={[styles.button,{width: 119,}]}>
+        <TouchableOpacity style={[styles.button,{width: 'auto',}]}>
             <Text style={styles.buttonText}>Women Lead</Text>
         </TouchableOpacity>
      </View>
 
      <View style={{flexDirection: 'row' ,  marginRight:0}}>
-        <TouchableOpacity style={[styles.button,{width:136}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Product Centric</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:6,marginVertical:25}} />
-        <TouchableOpacity style={[styles.button,{width:120}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Data Driven</Text>
         </TouchableOpacity>
      </View>
 
      <View style={{flexDirection: 'row' ,  marginRight:0}}>
-     <TouchableOpacity style={[styles.button,{width:175}]}>
+     <TouchableOpacity style={[styles.button,{width:"auto"}]}>
             <Text style={styles.buttonText}>Recognition & reward</Text>
         </TouchableOpacity>
        
         <View style={{marginHorizontal:6,marginVertical:25}} />
-        <TouchableOpacity style={[styles.button,{width:88}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Flexible</Text>
         </TouchableOpacity>
      </View>
 
      <View style={{flexDirection: 'row' , marginRight:0}}>
-        <TouchableOpacity style={[styles.button,{width:130}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Tech and tools</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:6,marginVertical:25}} />
-        <TouchableOpacity style={[styles.button,{width:110}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Progression</Text>
         </TouchableOpacity>
      </View>
 
      <View style={{flexDirection: 'row' , marginRight:0}}>
-     <TouchableOpacity style={[styles.button,{width:170}]}>
+     <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Diversity & wellbeing</Text>
         </TouchableOpacity>
         <View style={{marginHorizontal:6}} />
-        <TouchableOpacity style={[styles.button,{width:60}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>fun</Text>
         </TouchableOpacity>
      </View>

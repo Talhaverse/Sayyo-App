@@ -11,7 +11,7 @@ export default function HomeScreen({ navigation }) {
      <View style={{paddingHorizontal:40}}>
      {/* duplicatable view for same buttons */}
      <View style={{flexDirection: 'row' , paddingHorizontal:0}}>
-        <TouchableOpacity style={[styles.button,{width: 166,}]}>
+        <TouchableOpacity style={[styles.button,{width: 'auto',}]}>
             <Text style={styles.buttonText}>As soon as possible</Text>
         </TouchableOpacity>
        
@@ -25,7 +25,7 @@ export default function HomeScreen({ navigation }) {
             <Text style={styles.buttonText}>Islamabad</Text>
         </TouchableOpacity> */}
         {/* <View style={{marginHorizontal:4,marginVertical:25}} /> */}
-        <TouchableOpacity style={[styles.button,{width:110}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Next Month</Text>
         </TouchableOpacity>
 
@@ -45,7 +45,7 @@ export default function HomeScreen({ navigation }) {
         </TouchableOpacity>
      </View> */}
      <View style={{flexDirection: 'row' ,marginRight:0}}>
-        <TouchableOpacity style={[styles.button,{width:115}]}>
+        <TouchableOpacity style={[styles.button,{width:'auto'}]}>
             <Text style={styles.buttonText}>Just curious</Text>
         </TouchableOpacity>
         
@@ -58,7 +58,7 @@ export default function HomeScreen({ navigation }) {
      
      </View>
 
-<TouchableOpacity style={[styles.buttonMain,{width:70,marginLeft:280,marginTop:10}]} onPress={() => navigation.navigate("signup6")} >
+<TouchableOpacity style={[styles.buttonMain,{width:76,marginLeft:280,marginTop:10}]} onPress={() => navigation.navigate("signup6")} >
         <Text style={styles.buttonText}>Next</Text>
  </TouchableOpacity>
 
