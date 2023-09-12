@@ -18,7 +18,7 @@ export default function HomeScreen({ navigation }) {
 
         <View style={{flexDirection:'row'}}>
 
-        <Image source = {require('../assets/arrow.png')} style={{width:20, height:20,marginTop:6}} />
+        <Image source = {require('../assets/Infinity.png')} style={{width:20, height:20,marginTop:6}} />
          <Text style={styles.buttonText}>Infinity Games</Text>
 
         </View>
@@ -33,7 +33,7 @@ export default function HomeScreen({ navigation }) {
 
       <View style={{flexDirection:'row'}}>
 
-        <Image source = {require('../assets/arrow.png')} style={{width:20, height:20,marginTop:6}} />
+        <Image source = {require('../assets/Unity.png')} style={{width:20, height:20,marginTop:6}} />
         <Text style={styles.buttonText}>Unity Developer</Text>
 
      </View>
@@ -46,7 +46,7 @@ export default function HomeScreen({ navigation }) {
 
     <View style={{flexDirection:'row'}}>
 
-        <Image source = {require('../assets/arrow.png')} style={{width:20, height:20,marginTop:6}} />
+        <Image source = {require('../assets/Remote.png')} style={{width:20, height:20,marginTop:6}} />
         <Text style={styles.buttonText}>Remote</Text>
 
     </View>

@@ -18,7 +18,7 @@ export default function HomeScreen({ navigation }) {
 
         <View style={{flexDirection:'row'}}>
 
-        <Image source = {require('../assets/arrow.png')} style={{width:20, height:20,marginTop:6}} />
+        <Image source = {require('../assets/Location.png')} style={{width:20, height:20,marginTop:6}} />
          <Text style={styles.buttonText}>Remote & Karachi</Text>
 
         </View>
@@ -33,7 +33,7 @@ export default function HomeScreen({ navigation }) {
 
       <View style={{flexDirection:'row'}}>
 
-        <Image source = {require('../assets/arrow.png')} style={{width:20, height:20,marginTop:6}} />
+        <Image source = {require('../assets/Salary.png')} style={{width:20, height:20,marginTop:6}} />
         <Text style={styles.buttonText}>$55k - $100k salary</Text>
 
      </View>
@@ -46,7 +46,7 @@ export default function HomeScreen({ navigation }) {
 
     <View style={{flexDirection:'row'}}>
 
-        <Image source = {require('../assets/arrow.png')} style={{width:20, height:20,marginTop:6}} />
+        <Image source = {require('../assets/BAI.png')} style={{width:20, height:20,marginTop:6}} />
         <Text style={styles.buttonText}>Blockchain & AI</Text>
 
     </View>

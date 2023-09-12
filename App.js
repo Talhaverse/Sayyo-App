@@ -15,6 +15,8 @@ import signup6 from './components/signup6'
 import signup7 from './components/signup7'
 import signup8 from './components/signup8'
 import signup9 from './components/signup9'
+import signup10 from './components/signup10'
+import signup11 from './components/signup11'
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -66,6 +68,14 @@ export default function App() {
             backgroundColor: '#00B4D8',
           }, }} />
            <Stack.Screen name="signup9" component={signup9} options={{  title: '',
+          headerStyle: {
+            backgroundColor: '#00B4D8',
+          }, }} />
+          <Stack.Screen name="signup10" component={signup10}  options={{  title: '',
+          headerStyle: {
+            backgroundColor: '#A8DADC',
+          }, }} />
+          <Stack.Screen name="signup11" component={signup11} options={{  title: '',
           headerStyle: {
             backgroundColor: '#00B4D8',
           }, }} />
