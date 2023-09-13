@@ -63,7 +63,7 @@ export default function HomeScreen({ navigation }) {
 
 </View>
 
-<TouchableOpacity style={[styles.button,{width:64,marginLeft:250,marginBottom:10}]}>
+<TouchableOpacity style={[styles.button,{width:'auto',marginLeft:250,marginBottom:10}]}>
         <Text style={styles.buttonText}>Skip</Text>
  </TouchableOpacity>
 
