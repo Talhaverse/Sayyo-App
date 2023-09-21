@@ -17,25 +17,7 @@ const [modalVisible, setModalVisible] = useState(false);
     <SafeAreaView style={styles.container}>
 
 
-<Modal
-        animationType="fade"
-        transparent={true}
-        visible={modalVisible}
-        onRequestClose={() => {
-          Alert.alert('Modal has been closed.');
-          setModalVisible(!modalVisible);
-        }}>
-        <View style={styles.centeredView}>
-          <View style={styles.modalView}>
-            <Text style={styles.modalText}>Congrats! You're all set.</Text>
-            <Pressable
-              style={[styles.button, styles.buttonClose]}
-              onPress={() => setModalVisible(!modalVisible)}>
-              <Text style={styles.textStyle}>I'm Excited</Text>
-            </Pressable>
-          </View>
-        </View>
-      </Modal>
+
 
 
 
@@ -65,7 +47,7 @@ const [modalVisible, setModalVisible] = useState(false);
 
    
 
-    <TouchableOpacity style={[styles.buttonMain,{width:65,marginLeft:280,marginTop:10}]} onPress={() => setModalVisible(true)} >
+    <TouchableOpacity style={[styles.buttonMain,{width:65,marginLeft:280,marginTop:10}]} onPress={() => navigation.navigate("congrats")} >
         <Text style={styles.buttonText}>Next</Text>
   </TouchableOpacity>
     </SafeAreaView>
